@@ -1,4 +1,4 @@
-### Module positions - created on Вт 21 апр 2020 20:00:18 ###
+### Module positions - created on Вт 21 апр 2020 20:17:52 ###
 ### Printed by Pcbnew version kicad 5.1.5-52549c5~86~ubuntu16.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -127,6 +127,7 @@ R114      0              R_0402_1005Metric              -157.6200  -122.8600  27
 R115      0              R_0402_1005Metric              -172.8600  -107.6200    0.0000  bottom
 R116      0              R_0402_1005Metric              -172.8600   -92.3800    0.0000  bottom
 R117      0              R_0402_1005Metric              -127.1400   -92.3800  180.0000  bottom
+T1        750315371      750315371                      -166.5100   -83.4900  225.0000  bottom
 U6        LP5907         SOT-23-5                       -160.1600  -110.1600  135.0000  bottom
 U7        ADR4525        SOIC-8_3.9x4.9mm_P1.27mm       -150.0000   -75.8700  180.0000  bottom
 U9        STM32H743ZITx  LQFP-144_20x20mm_P0.5mm        -150.0000  -100.0000   45.0000  bottom
