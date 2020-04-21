@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name FreeEEG32-pralpha2-AD7779--rescue)(type Legacy)(uri "${KIPRJMOD}/FreeEEG32-pralpha2-AD7779 -rescue.lib")(options "")(descr ""))
+  (lib (name FreeEEG32-prealpha2--rescue)(type Legacy)(uri "${KIPRJMOD}/FreeEEG32-prealpha2 -rescue.lib")(options "")(descr ""))
+  (lib (name FreeEEG32-prealpha2-rescue)(type Legacy)(uri ${KIPRJMOD}/FreeEEG32-prealpha2-rescue.lib)(options "")(descr ""))
+  (lib (name FreeEEG32-alpha1.5-rescue)(type Legacy)(uri ${KIPRJMOD}/FreeEEG32-alpha1.5-rescue.lib)(options "")(descr ""))
+)
