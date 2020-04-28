@@ -1,4 +1,4 @@
-### Module positions - created on Вт 21 апр 2020 20:17:52 ###
+### Module positions - created on Вт 28 апр 2020 14:28:34 ###
 ### Printed by Pcbnew version kicad 5.1.5-52549c5~86~ubuntu16.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -119,6 +119,8 @@ C133      100n           C_0402_1005Metric              -141.1608  -114.6558  13
 C134      100n           C_0402_1005Metric              -139.7892  -113.2842  315.0000  bottom
 C137      100n           C_0402_1005Metric              -140.4750   -85.3950  225.0000  bottom
 C138      100n           C_0402_1005Metric              -134.3790   -75.7430  315.0000  bottom
+D1        D_Schottky     D_SOD-123                      -159.5250   -87.3187  135.0000  bottom
+D2        D_Schottky     D_SOD-123                      -162.7000   -90.4937  315.0000  bottom
 J51       USB_B_Micro    USB_Micro-B_Molex-105017-0001  -127.1400  -122.8600  135.0000  bottom
 R101      24             R_0402_1005Metric              -137.5286  -110.8458  225.0000  bottom
 R102      24             R_0402_1005Metric              -136.2332  -109.6520  225.0000  bottom
