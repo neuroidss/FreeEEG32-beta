@@ -30,6 +30,7 @@ This part adapted from [Circuit Digest](https://circuitdigest.com/microcontrolle
 
 With the STM32 Flasher Demonstrator GUI installed and the CMSIS-DAP firmware downloaded, wire up your Blue Pill to your USB-UART converter 
 (you can’t use the Micro-USB port by default) like so:
+
 ![1.1](images/1.1.png)
 
 Place the Blue Pill in programming mode by placing the TOP yellow jumper pin in this image to the “1” position.
@@ -38,13 +39,16 @@ Place the Blue Pill in programming mode by placing the TOP yellow jumper pin in 
 
 Plug the USB-UART converter into the computer after it’s wired up and then open the Flasher Demonstrator GUI. Select the correct COM port 
 for the USB-UART converter and hit next.
+
 ![1.2](images/1.2.png)
 
 Click next, see that the Blue Pill has been found (adjust the wires and reopen the GUI to try again if it doesn’t work the first time), 
 and then select your Blue Pill’s memory size (64K is the most common, the previous window tells you the memory size). 
+
 ![1.3](images/1.3.png)
 
 In the next window select “Download to device,” navigate to the CMSIS-DAP_hex folder in the Firmware folder of this repo and select "CMSIS-DAP-V1-F103.hex" and click Next
+
 ![1.4](images/1.4.png)
 
 You should see it downloading to the device, the progress bar turns green on success. You are finished setting up your Blue Pill! Place it back into Operating mode by switching the jumper back to the 0 position.
@@ -69,12 +73,15 @@ In the tool bar click Run > Debug Configurations
 Select Ac6 STM32 Debugging then click the New icon in the top left corner. Name this CMSIS-DAP or something.
 
 In the Main tab, select Browse under Project: and select the current project, then in the C/C++ Application section select Search Project and it should fill out with the .elf file automatically.
+
 ![1.5](images/1.5.png)
 
 In the Debugger tab, select User Defined under Configuration Script and find "STM32H743ZI_alpha1.5.cfg" under the current project folder.
+
 ![1.6](images/1.6.png)
 
 With that set, now let's wire up the Blue Pill to the FreeEEG32. Connect the Blue Pill to the pins near the buttons like so:
+
 ![1.7](images/1.7.jpg)
 
 ![1.8](images/1.8.jpg)
@@ -87,20 +94,24 @@ Now, holding down the boot button firmly, click Run (the green Play button) to u
 
 If it's working you'll see it say "Programming started" and hang for a bit,
 then you should see it eventually scroll a bunch then you'll see a message "Verified OK" meaning it's done.
+
 ![1.10](images/1.10.png)
 
 To test if it worked, first unplug everything then remove the Blue Pill. Then plug the EEG in via both USB ports.
 
 Assuming you are on Ubuntu now, open a terminal and type in "lsusb", you should see an ST Microelectronics STM32F407 board recognized. That's the EEG!
+
 ![1.11](images/1.11.png)
 
 To read the output you must use something like putty, and the baud rate is 921600. On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
 
 If you do not see output, ensure that the USB output is enabled in main.c of the firmware by uncommenting the setting shown and commenting out the old one then reflashing:
 The setting you want uncommented is "#define FREESMARTEEG_SEND (FREESMARTEEG_SEND_UART1 | FREESMARTEEG_SEND_USBHS)", additional settings can send data to the SD slot.
+
 ![1.12](images/1.12.jpg)
 
 Alternatively, you can use a USB-UART converter on the UART pins (see diagram above), wired up like so:
+
 ![ftdi1](images/ftdi1.jpg)
 ![ftdi2](images/ftdi2.jpg)
 
