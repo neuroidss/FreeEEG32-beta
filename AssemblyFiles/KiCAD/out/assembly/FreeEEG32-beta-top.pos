@@ -1,0 +1,41 @@
+### Module positions - created on Вт 28 апр 2020 14:28:34 ###
+### Printed by Pcbnew version kicad 5.1.5-52549c5~86~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                        Package                                                           PosX       PosY       Rot  Side
+C85       2.2u                       C_0603_1608Metric                                             160.2870   -85.9792   45.0000  top
+C86       2.2u                       C_0603_1608Metric                                             158.8900   -91.7590  135.0000  top
+C88       2.2u                       C_0603_1608Metric                                             157.8740  -106.8580  135.0000  top
+C109      2.2u                       C_0603_1608Metric                                             162.3444  -111.7094  225.0000  top
+C110      2.2u                       C_0603_1608Metric                                             156.8072  -107.9248  135.0000  top
+C111      100n                       C_0402_1005Metric                                             170.2655  -121.5429   45.0000  top
+C112      100n                       C_0402_1005Metric                                             171.6408  -120.1676  225.0000  top
+C113      10u                        C_0603_1608Metric                                             170.3454   -79.6038  315.0000  top
+C123      CL1                        C_0402_1005Metric                                             142.1514  -111.8364  225.0000  top
+C124      CL2                        C_0402_1005Metric                                             141.3894  -111.0998  225.0000  top
+C125      CL1                        C_0402_1005Metric                                             140.8306  -115.6718   45.0000  top
+C126      CL2                        C_0402_1005Metric                                             133.2360  -109.6774  135.0000  top
+C131      100n                       C_0402_1005Metric                                             127.7750  -120.9550  225.0000  top
+C132      100n                       C_0402_1005Metric                                             129.0450  -122.2250  225.0000  top
+C135      100n                       C_0402_1005Metric                                             135.2680   -90.4750   45.0000  top
+C136      100n                       C_0402_1005Metric                                             125.7430   -84.3790  315.0000  top
+C139      100n                       C_0402_1005Metric                                             174.7650  -119.0500   45.0000  top
+J37       USB_B_Micro                USB_Micro-B_Molex-105017-0001                                 172.8600   -77.1587  135.0000  top
+R10       R_EXT                      R_0402_1005Metric                                             138.1890  -108.5090  135.0000  top
+R99       24                         R_0402_1005Metric                                             127.1400  -124.7650   45.0000  top
+R100      24                         R_0402_1005Metric                                             125.2350  -122.8600   45.0000  top
+R108      4k7                        R_0402_1005Metric                                             169.0500  -124.7650   45.0000  top
+SW1       SW_Push                    SW_SPST_B3U-1000P-B                                           170.9550  -126.6700  225.0000  top
+SW2       SW_Push                    SW_SPST_B3U-1000P-B                                           176.6700  -120.9550   45.0000  top
+U1        AD7779                     QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm                           165.2400  -100.0000  270.0000  top
+U2        AD7779                     QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm                           150.0000  -115.2400  180.0000  top
+U3        AD7779                     QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm                           134.7600  -100.0000   90.0000  top
+U4        AD7779                     QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm                           150.0000   -84.7600    0.0000  top
+U5        LP5907                     SOT-23-5                                                      160.7950   -89.2190  225.0000  top
+U8        FXO-SM7_OSC-SMD7050_short  Oscillator_SMD_EuroQuartz_XO91-4Pin_7.0x5.0mm_HandSoldering   149.9629  -100.0366   90.0000  top
+U10       LP5907                     SOT-23-5                                                      160.1600  -110.1600  135.0000  top
+U11       LSM6DS3                    Bosch_LGA-14_3x2.5mm_P0.5mm                                   168.9955  -119.0029   45.0000  top
+U18       ADUM1402BRWZ               SOIC-16W_7.5x10.3mm_P1.27mm                                   133.4900   -83.4900  135.0000  top
+Y1        32768Hz                    Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm_HandSoldering     141.5104  -108.5404  225.0000  top
+Y2        16MHz                      Crystal_SMD_EuroQuartz_MJ-4Pin_5.0x3.2mm_HandSoldering        137.6810  -112.3190  135.0000  top
+## End
