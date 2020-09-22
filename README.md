@@ -15,5 +15,5 @@ Assembly: https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/
 
 BOM:      https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/bom/components%20FreeEEG32%20beta.csv
 
-This project is being launched with the help of ![HEG Alpha](hegalpha.com) to make science more accessible.
+This project is being launched with the help of [HEG Alpha](hegalpha.com) to make science more accessible.
 Custom 2 channel and 19 channel headsets are available by Bernard Markus.
