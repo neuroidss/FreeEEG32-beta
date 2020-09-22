@@ -112,7 +112,7 @@ The setting you want uncommented is "#define FREESMARTEEG_SEND (FREESMARTEEG_SEN
 
 ![1.12](images/1.12.jpg)
 
-Alternatively, you can use a USB-UART converter on the UART pins (see diagram above), wired up like so:
+Alternatively, you can test the output using a USB-UART converter on the UART pins (see diagram above), wired up like so:
 
 ![ftdi1](images/ftdi1.jpg)
 ![ftdi2](images/ftdi2.jpg)
