@@ -57,6 +57,8 @@ Click the Signal display tab at the top to bring up the menu for the charts. You
 Short a + (front) and - (back) analog input together on a single channel and ensure that the noise being measured is less than 0.25uV on average. 
 The graph scale is in Microvolts (uV). Select that channel in the signal view and scale it to around 2.00 uV or just select automatic scaling.
 
+![noise](images/shorted_noise.jpg)
+
 If that looks good enough, now wire up 3 electrodes like so, 1 for a single channel + and - and 1 in the Gnd position:
 
 ![test1](images/test1.jpg)
