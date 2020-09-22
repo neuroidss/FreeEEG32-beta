@@ -2,7 +2,7 @@
 
 #### Materials
 
-![STM32F103C8T6 "Blue Pill"](https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html)
+[STM32F103C8T6 "Blue Pill"](https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html)
 Make sure it's genuine!
 
 FT232RL USB to UART converter OR ESP32 developer board
@@ -14,19 +14,19 @@ FreeEEG32 board.
 #### Software:
 
 ##### Blue Pill software (Windows only)
-![STM32 Flasher Demonstrator GUI](https://www.st.com/en/development-tools/flasher-stm32.html)
+[STM32 Flasher Demonstrator GUI](https://www.st.com/en/development-tools/flasher-stm32.html)
 
 CMSIS-DAP V1 F103 Firmware (included in this repo under /Firmware/CMSIS-DAP_hex)
 
 ##### FreeEEG32 software
-![System Workbench for STM32](https://www.openstm32.org/System%2BWorkbench%2Bfor%2BSTM32) (registration required, recommend you use this on Ubuntu 16.04 or 18.04 as this is how we will access OpenVibe)
+[System Workbench for STM32](https://www.openstm32.org/System%2BWorkbench%2Bfor%2BSTM32) (registration required, recommend you use this on Ubuntu 16.04 or 18.04 as this is how we will access OpenVibe)
 
 FreeEEG32 Firmware (included in this repo under /Firmware/AC6)
 
 
 ## Setting up the Blue Pill
 
-This part adapted from ![Circuit Digest](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port)
+This part adapted from [Circuit Digest](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port)
 
 With the STM32 Flasher Demonstrator GUI installed and the CMSIS-DAP firmware downloaded, wire up your Blue Pill to your USB-UART converter 
 (you can’t use the Micro-USB port by default) like so:
