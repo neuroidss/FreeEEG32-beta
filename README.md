@@ -10,7 +10,9 @@ Neuroidss home: https://neuroidss.com
 
 ### Production files
 Gerber:   https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/KiCAD/out/gerber.zip
+
 Assembly: https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/KiCAD/out/assembly.zip
+
 BOM:      https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/bom/components%20FreeEEG32%20beta.csv
 
 This project is being launched with the help of ![HEG Alpha](hegalpha.com) to make science more accessible.
