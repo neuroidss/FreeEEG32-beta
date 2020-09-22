@@ -55,7 +55,7 @@ Click the Signal display tab at the top to bring up the menu for the charts. You
 ![1.7](images/1.7.jpg)
 
 Short a + (front) and - (back) analog input together on a single channel and ensure that the noise being measured is less than 0.25uV on average. 
-The graph scale is in Microvolts (uV). Select that channel in the signal view and scale it to around 2.00 uV or just select automatic scaling.
+The graph scale is in Microvolts (uV). Select that channel in the signal view and scale it to around 2.00 uV or just select automatic scaling. If it's noisy, ensure that you are not on AC power (i.e. remove your laptop charger if you are on one, desktop may not work depending on location).
 
 ![noise](images/shorted_noise.jpg)
 
