@@ -27,14 +27,12 @@ Once it finishes downloading everything you should see some messages with colore
 
 Press Ctrl+C twice in the Terminal to close the server. Now plug in your EEG with both wires if it's not already, then re-run "sudo docker-compose up" in the same Terminal.
 
-Now open your browser and enter the address ![http://localhost:6904/?password=vncpassword](
-http://localhost:6904/?password=vncpassword)
+Now open your browser and enter the address
+http://localhost:6904/?password=vncpassword
 
 ![2.1](images/2.1.png)
 
-There is also a server interface at ![
-http://localhost:6902/?password=vncpassword](
-http://localhost:6902/?password=vncpassword) where you can manually connect, however it should run automatically on default settings.
+There is also a server interface at http://localhost:6902/?password=vncpassword where you can manually connect, however it should run automatically on default settings.
 
 ![2.2](images/2.2.png)
 
