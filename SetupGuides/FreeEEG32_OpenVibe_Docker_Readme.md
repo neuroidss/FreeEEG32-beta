@@ -59,7 +59,7 @@ The graph scale is in Microvolts (uV). Select that channel in the signal view an
 
 ![noise](images/shorted_noise.jpg)
 
-If that looks good enough, now wire up 3 electrodes like so, 1 for a single channel + and - and 1 in the Gnd position:
+If that looks good enough, now wire up 3 electrodes like so, 2 for a single channel + and - slots and 1 in the Gnd position:
 
 ![test1](images/test1.jpg)
 
