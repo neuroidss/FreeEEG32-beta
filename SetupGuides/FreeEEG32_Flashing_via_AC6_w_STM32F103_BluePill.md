@@ -97,7 +97,9 @@ then you should see it eventually scroll a bunch then you'll see a message "Veri
 
 ![1.10](images/1.10.png)
 
-To test if it worked, first unplug everything then remove the Blue Pill. Then plug the EEG in via both USB ports.
+## Testing the Firmware
+
+To test if it worked, first unplug everything then remove the Blue Pill. Then plug the EEG in via both USB ports. It should start to warm up.
 
 Assuming you are on Ubuntu now, open a terminal and type in "lsusb", you should see an ST Microelectronics STM32F407 board recognized. That's the EEG!
 
