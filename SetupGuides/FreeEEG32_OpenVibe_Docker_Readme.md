@@ -17,7 +17,7 @@ Install on Ubuntu (16.04 or 18.04 preferred)
 
 ## Setting up OpenVIBE with Docker Compose
 
-With Docker and Docker Compose installed for Ubuntu, first extract openvibe-freeeeg32.tar.gz to the same folder.
+With Docker and Docker Compose installed for Ubuntu, in the OpenVIBE folder from this repo, first extract openvibe-freeeeg32.tar.gz to somewhere (the same folder as the .tar.gz file is fine).
 
 Now open this extracted openvibe-freeeeg32 folder and right click and select Open Terminal.
 
