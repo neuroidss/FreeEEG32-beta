@@ -4,7 +4,7 @@ FreeEEG32 Beta, launching soon on [Crowd Supply](https://www.crowdsupply.com/neu
 
 ![basic_layout](https://github.com/neuroidss/FreeEEG32-beta/blob/master/basic_layout.jpg)
 
-[Flashing via AC6 with STM32 Blue Pill)](https://github.com/neuroidss/FreeEEG32-beta/blob/master/SetupGuides/FreeEEG32_Flashing_via_AC6_w_STM32F103_BluePill.md)
+[Flashing via AC6 with STM32 Blue Pill](https://github.com/neuroidss/FreeEEG32-beta/blob/master/SetupGuides/FreeEEG32_Flashing_via_AC6_w_STM32F103_BluePill.md)
 
 [OpenVIBE Setup](https://github.com/neuroidss/FreeEEG32-beta/blob/master/SetupGuides/FreeEEG32_OpenVibe_Docker_Readme.md)
 
