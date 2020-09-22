@@ -80,7 +80,7 @@ And that's it really! Good luck!
 
 You can run multiple EEGs plugged into your computer (you'll need lots of USB ports!) in the same GUI by starting more servers before starting the GUI. 
 
-That should stream it automatically into OpenVIBE in multiples of 32 channels. 
+That should stream it automatically into OpenVIBE in multiples of 32 channels. Here are 8 plugged into the same PC:
 
 ![stack](images/stack_output.png)
 
