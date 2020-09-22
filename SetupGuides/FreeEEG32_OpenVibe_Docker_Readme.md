@@ -59,9 +59,9 @@ The graph scale is in Microvolts (uV). Select that channel in the signal view an
 
 If that looks good enough, now wire up 3 electrodes like so, 1 for a single channel + and - and 1 in the Gnd position:
 
-![test1](test1.jpg)
+![test1](images/test1.jpg)
 
-![32cha](32cha.png)
+![32cha](images/32cha.png)
 
 For an easy test, put the Gnd electrode on your ear (use tape or something to stick it there if you don't have a clip).
 Put the + and - electrode on Fp1 and Fp2. Now wiggle your forehead and move your eyes around, you should see responses with the EEG amplitudes at around 100uV or less. 
