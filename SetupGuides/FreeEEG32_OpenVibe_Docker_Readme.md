@@ -78,7 +78,7 @@ And that's it really! Good luck!
 
 ### Multiple EEGs
 
-You can run multiple EEGs plugged into your computer (you'll need lots of USB ports!) in the same GUI by starting more servers before starting the GUI. 
+You can run multiple EEGs plugged into your computer (you'll need lots of USB ports!) in the same GUI by starting more servers before starting the GUI. Extract [openvibe-freeeeg32-128.zip](https://github.com/neuroidss/FreeEEG32-beta/blob/master/OpenVIBE/openvibe-freeeeg32-128.zip) and try "sudo docker-compose up" in that folder for a 128 channel stack configuration for openvibe, it should work for less than 4 boards too.
 
 That should stream it automatically into OpenVIBE in multiples of 32 channels. Here are 8 plugged into the same PC:
 
