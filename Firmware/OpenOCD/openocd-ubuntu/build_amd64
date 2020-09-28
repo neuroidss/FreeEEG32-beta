@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+USER=neuroidss
+NAME=openocd-ubuntu
+
+for arch in amd64; do
+#for arch in amd64 arm64 arm; do
+#for arch in arm64; do
+#  docker build --no-cache -f Dockerfile.${arch} -t $USER/$NAME:${arch}-latest .
+  docker build -f Dockerfile.${arch} -t $USER/$NAME:${arch}-latest .
+  docker push $USER/$NAME:${arch}-latest
+done
