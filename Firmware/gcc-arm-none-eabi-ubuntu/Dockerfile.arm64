@@ -1,0 +1,11 @@
+FROM ubuntu@sha256:01a2038b20d165ab7df81934f9849bdfbc59bd6f6322c5d11e341504f66ec266
+COPY ./qemu-aarch64-static /usr/bin/
+
+USER 0
+
+RUN apt update \
+&& apt install -y gcc \
+&& apt install -y build-essential \
+&& apt install -y gcc-arm-none-eabi
+
+USER 1000
