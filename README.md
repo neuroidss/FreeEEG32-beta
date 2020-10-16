@@ -18,11 +18,16 @@ Assembly: https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/
 BOM:      https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/bom/components%20FreeEEG32%20beta.csv
 
 PCB fabrication constraints:
-Dims: 70mm x 70mm
-Layers: 4
-Thickness: 1.6mm (can vary, thicker = sturdier)
-Surface finish: HASL Lead free or ENIG (more expensive)
-Material: FR4
+* Dims: 70mm x 70mm
+* Layers: 4
+* Thickness: 1.6mm (can vary, thicker = sturdier)
+* Surface finish: HASL Lead free or ENIG (more expensive)
+* Material: FR4
+
+Assembly constraints:
+* Unique parts: 27 (+6 with pin headers)
+* SMT Pads:  169
+* Thruhole: 23 (pin headers only)
 
 
 This project is being launched with the help of [HEG Alpha](hegalpha.com) to make science more accessible.
