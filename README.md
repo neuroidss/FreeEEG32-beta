@@ -17,6 +17,14 @@ Assembly: https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/
 
 BOM:      https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/bom/components%20FreeEEG32%20beta.csv
 
+PCB fabrication constraints:
+Dims: 70mm x 70mm
+Layers: 4
+Thickness: 1.6mm (can vary, thicker = sturdier)
+Surface finish: HASL Lead free or ENIG (more expensive)
+Material: FR4
+
+
 This project is being launched with the help of [HEG Alpha](hegalpha.com) to make science more accessible.
 Custom 2 channel and 19 channel headsets are available by Bernard Markus.
 
