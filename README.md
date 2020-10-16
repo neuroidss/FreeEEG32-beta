@@ -25,9 +25,10 @@ PCB fabrication constraints:
 * Material: FR4
 
 Assembly constraints:
-* Unique parts: 27 (+6 with pin headers)
+* Unique parts: 33 (27 without pin headers)
 * SMT Pads:  169
 * Thruhole: 23 (pin headers only)
+* Assembly sides: both
 
 
 This project is being launched with the help of [HEG Alpha](hegalpha.com) to make science more accessible.
