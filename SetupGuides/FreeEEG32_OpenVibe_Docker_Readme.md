@@ -20,7 +20,9 @@ Assuming you are using Ubuntu:
 
 Connect both USB wires to your FreeEEG32.
 
-Open the command prompt and type "lsusb" to see the or navigate to your /dev/ folder and look for a file that should say: tty_ACM0. This should disappear when you unplug the FreeEEG32.
+Open the command prompt and type "lsusb" to see the device connected. You should see an ST Microelectronics device listed.
+
+Navigate to your /dev/ folder and look for a file that should say: tty_ACM0. This should disappear when you unplug the FreeEEG32.
 
 Open a software like PuTTY or KiTTY that can test serial streams. Enter /dev/tty_ACM0 into the hostname and set the speed (baudrate) to 921600.
 
