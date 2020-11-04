@@ -14,6 +14,18 @@ Install on Ubuntu (16.04 or 18.04 preferred)
 
 [Docker Compose](https://docs.docker.com/compose/install/)
 
+## First test the data stream
+
+Assuming you are using Ubuntu: 
+
+Connect both USB wires to your FreeEEG32.
+
+Open the command prompt and type "lsusb" to see the or navigate to your /dev/ folder and look for a file that should say: tty_ACM0. This should disappear when you unplug the FreeEEG32.
+
+Open a software like PuTTY or KiTTY that can test serial streams. Enter /dev/tty_ACM0 into the hostname and set the speed (baudrate) to 921600.
+
+You should see a big stream of gibberish, which is encoded data. This can be switched in the firmware to a number stream. This means it should work just fine in OpenVIBE.
+
 
 ## Setting up OpenVIBE with Docker Compose
 
