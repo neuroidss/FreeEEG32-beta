@@ -62,7 +62,7 @@ First, in /Firmware/AC6 unzip the STM32H743ZI_alpha1.5_SD_CDC.zip/.tar.xz
 to the same folder.
 
 With AC6 installed, click on the .cproject file in the newly unzipped folder 
-to open it.
+to open it. You may not find AC6 at first, go to its install location, open the terminal and enter ./eclipse then pin the app once it starts.
 
 First select Project > Build All to build the firmware.
 
