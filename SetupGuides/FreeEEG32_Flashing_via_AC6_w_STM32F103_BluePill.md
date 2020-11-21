@@ -105,40 +105,9 @@ Assuming you are on Ubuntu now, open a terminal and type in "lsusb", you should 
 
 ![1.11](images/1.11.png)
 
-Note: You may be unable to connect without first adding this udev rule:
-
-`cd /etc/udev/rules.d`
-
-`sudo touch 45-usb-stlink-v2.rules`
-
-`sudo gedit 45-usb-stlink-v2.rules`
-
-paste this and save:
-
-```
-#FT232
-ATTRS{idProduct}=="6014", ATTRS{idVendor}=="0403", MODE="666", GROUP="plugdev"
-
-#FT2232
-ATTRS{idProduct}=="6010", ATTRS{idVendor}=="0403", MODE="666", GROUP="plugdev"
-
-#FT230X
-ATTRS{idProduct}=="6015", ATTRS{idVendor}=="0403", MODE="666", GROUP="plugdev"
-
-#STLINK V1
-ATTRS{idProduct}=="3744", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
-
-#STLINK V2
-ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
-```
-
-`sudo service udev restart`
-
-Then restart the computer...
-
 To read the output you must use something like putty, and the baud rate is 921600. On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
 
-If you do not see output, ensure that the USB output is enabled in main.c of the firmware by uncommenting the setting shown and commenting out the old one then reflashing:
+If you do not see output, ensure that the USB output is enabled in inc/main.h of the firmware by uncommenting the setting shown and commenting out the old one then reflashing:
 The setting you want uncommented is "#define FREESMARTEEG_SEND (FREESMARTEEG_SEND_UART1 | FREESMARTEEG_SEND_USBHS)", additional settings can send data to the SD slot.
 
 ![1.12](images/1.12.jpg)
