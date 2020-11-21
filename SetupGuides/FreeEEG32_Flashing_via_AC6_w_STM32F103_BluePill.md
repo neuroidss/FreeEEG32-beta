@@ -134,6 +134,8 @@ ATTRS{idProduct}=="3748", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"
 
 `sudo service udev restart`
 
+Then restart the computer...
+
 To read the output you must use something like putty, and the baud rate is 921600. On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
 
 If you do not see output, ensure that the USB output is enabled in main.c of the firmware by uncommenting the setting shown and commenting out the old one then reflashing:
