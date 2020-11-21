@@ -68,6 +68,10 @@ First select Project > Build All to build the firmware.
 
 Now we need to set up the debug configuration real quick. 
 
+You need to copy a file first.
+
+In AC6/SystemWorkbench/plugins, search for cmsis-dap.cfg and copy the one found in com.st.stm32ide.debug/resources/openocd/st_scripts/interface to the same subfolder in fr.ac6.mcu.debug to make the CMSIS-DAP be recognized properly
+
 In the tool bar click Run > Debug Configurations
 
 Select Ac6 STM32 Debugging then click the New icon in the top left corner. Name this CMSIS-DAP or something.
