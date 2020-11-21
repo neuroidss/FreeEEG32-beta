@@ -70,7 +70,26 @@ Now we need to set up the debug configuration real quick.
 
 You need to copy a file first.
 
-In AC6/SystemWorkbench/plugins, search for cmsis-dap.cfg and copy the one found in com.st.stm32ide.debug/resources/openocd/st_scripts/interface to the same subfolder in fr.ac6.mcu.debug to make the CMSIS-DAP be recognized properly
+In AC6/SystemWorkbench/plugins, search for cmsis-dap.cfg and copy the one found in com.st.stm32ide.debug/resources/openocd/st_scripts/interface to the same subfolder in fr.ac6.mcu.debug to make the CMSIS-DAP be recognized properly.
+
+You may also need to add this rule:
+```
+# mbed CMSIS-DAP
+ATTRS{idVendor}=="0d28", ATTRS{idProduct}=="0204", MODE="664", GROUP="plugdev"
+KERNEL=="hidraw*", ATTRS{idVendor}=="0d28", ATTRS{idProduct}=="0204", MODE="664", GROUP="plugdev"
+```
+
+via
+
+```
+cd /etc/udev/rules.d
+sudo touch newrule.rules
+sudo gedit newrule.rules
+```
+
+then paste the above rule, save, and use the command
+
+`sudo udevadm control --reload-rules`
 
 In the tool bar click Run > Debug Configurations
 
