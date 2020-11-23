@@ -36,4 +36,6 @@ Custom 2 channel and 19 channel headsets are available by Bernard Markus.
 
 ### More
 
+[BrainFlow support](https://brainflow.readthedocs.io/en/stable/)
+
 [Alpha 1.5 repo with more content and tests](https://github.com/neuroidss/FreeEEG32-alpha1.5)
