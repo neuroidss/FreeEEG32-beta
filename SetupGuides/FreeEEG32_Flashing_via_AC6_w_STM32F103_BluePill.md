@@ -130,8 +130,6 @@ Assuming you are on Ubuntu now, open a terminal and type in "lsusb", you should 
 
 To read the output you must use something like putty, with baud rate 921600. On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
 
-![1.12](images/1.12.jpg)
-
 Alternatively, you can test the output using a USB-UART converter on the UART pins (see diagram above), wired up like so:
 
 ![ftdi1](images/ftdi1.jpg)
