@@ -128,10 +128,7 @@ Assuming you are on Ubuntu now, open a terminal and type in "lsusb", you should 
 
 ![1.11](images/1.11.png)
 
-To read the output you must use something like putty, and the baud rate is 921600. On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
-
-If you do not see output, ensure that the USB output is enabled in inc/main.h of the firmware by uncommenting the setting shown and commenting out the old one then reflashing:
-The setting you want uncommented is "#define FREESMARTEEG_SEND (FREESMARTEEG_SEND_UART1 | FREESMARTEEG_SEND_USBHS)", additional settings can send data to the SD slot.
+To read the output you must use something like putty, with baud rate 921600. On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
 
 ![1.12](images/1.12.jpg)
 
