@@ -21,7 +21,7 @@ CMSIS-DAP V1 F103 Firmware (included in this repo under /Firmware/CMSIS-DAP_hex)
 ##### FreeEEG32 software
 [System Workbench for STM32](https://www.openstm32.org/System%2BWorkbench%2Bfor%2BSTM32) (registration required, recommend you use this on Ubuntu 16.04 or 18.04 as this is how we will access OpenVibe)
 
-FreeEEG32 Firmware (included in this repo under /Firmware/AC6). Replace the firmware files with the contents of [EEG_WindowsCompat.tar.gz](https://github.com/neuroidss/FreeEEG32-beta/blob/master/Firmware/AC6/STM32H743ZI_alpha1.5_SD_CDC/EEG_WindowsCompat.tar.gz) to enable Windows (and probably Mac) compatibility, this will get integrated once tested fully. 
+FreeEEG32 Firmware (included in this repo under /Firmware/AC6). Replace the firmware files with the contents of [EEG_WindowsCompat.tar](https://github.com/neuroidss/FreeEEG32-beta/blob/master/Firmware/AC6/EEG_WindowsCompat.tar) to enable Windows (and probably Mac) compatibility, this will get integrated once tested fully. 
 
 
 ## Setting up the Blue Pill
