@@ -128,7 +128,7 @@ Assuming you are on Ubuntu now, open a terminal and type in "lsusb", you should 
 
 ![1.11](images/1.11.png)
 
-To read the output you must use something like putty, with baud rate 921600. On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
+To read the output you must use something like putty, with baud rate 921600 (115200 with the Windows fix). On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
 
 Alternatively, you can test the output using a USB-UART converter on the UART pins (see diagram above), wired up like so:
 
