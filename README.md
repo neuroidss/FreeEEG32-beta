@@ -4,11 +4,11 @@
 
 ![basic_layout](https://github.com/neuroidss/FreeEEG32-beta/blob/master/basic_layout.jpg)
 
+### Setup
+
 [Flashing via AC6 with STM32 Blue Pill](https://github.com/neuroidss/FreeEEG32-beta/blob/master/SetupGuides/FreeEEG32_Flashing_via_AC6_w_STM32F103_BluePill.md)
 
 [OpenVIBE Setup](https://github.com/neuroidss/FreeEEG32-beta/blob/master/SetupGuides/FreeEEG32_OpenVibe_Docker_Readme.md)
-
-Neuroidss home: https://neuroidss.com
 
 ### Production files
 Gerber:   https://github.com/neuroidss/FreeEEG32-beta/blob/master/AssemblyFiles/KiCAD/out/gerber.zip
@@ -35,6 +35,8 @@ This project is being launched with the help of [HEG Alpha](hegalpha.com) to mak
 Custom 2 channel and 19 channel headsets are available by Bernard Markus.
 
 ### More
+
+Neuroidss home: https://neuroidss.com
 
 [Alpha 1.5 repo with more content and tests](https://github.com/neuroidss/FreeEEG32-alpha1.5)
 

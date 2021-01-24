@@ -21,7 +21,7 @@ CMSIS-DAP V1 F103 Firmware (included in this repo under /Firmware/CMSIS-DAP_hex)
 ##### FreeEEG32 software
 [System Workbench for STM32](https://www.openstm32.org/System%2BWorkbench%2Bfor%2BSTM32) (registration required, recommend you use this on Ubuntu 16.04 or 18.04 as this is how we will access OpenVibe)
 
-FreeEEG32 Firmware (included in this repo under /Firmware/AC6). Replace the firmware files with the contents of [EEG_WindowsCompat.tar.gz](https://github.com/neuroidss/FreeEEG32-beta/blob/master/Firmware/AC6/STM32H743ZI_alpha1.5_SD_CDC/EEG_WindowsCompat.tar.gz) to enable Windows (and probably Mac) compatibility, this will get integrated once tested fully. 
+FreeEEG32 Firmware (included in this repo under /Firmware/AC6). Replace the firmware files with the contents of [EEG_WindowsCompat.tar.gz](https://github.com/neuroidss/FreeEEG32-beta/blob/master/Firmware/AC6/EEG_WindowsCompat.tar.gz) to enable Windows (and probably Mac) compatibility, this will get integrated once tested fully. 
 
 
 ## Setting up the Blue Pill
@@ -128,12 +128,7 @@ Assuming you are on Ubuntu now, open a terminal and type in "lsusb", you should 
 
 ![1.11](images/1.11.png)
 
-To read the output you must use something like putty, and the baud rate is 921600. On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
-
-If you do not see output, ensure that the USB output is enabled in inc/main.h of the firmware by uncommenting the setting shown and commenting out the old one then reflashing:
-The setting you want uncommented is "#define FREESMARTEEG_SEND (FREESMARTEEG_SEND_UART1 | FREESMARTEEG_SEND_USBHS)", additional settings can send data to the SD slot.
-
-![1.12](images/1.12.jpg)
+To read the output you must use something like putty, with baud rate 921600 (115200 with the Windows fix). On Ubuntu the device will be at /dev/ttyACM0 when plugged via MicroUSB.
 
 Alternatively, you can test the output using a USB-UART converter on the UART pins (see diagram above), wired up like so:
 
