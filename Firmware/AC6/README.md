@@ -1,3 +1,11 @@
 Use these files in AC6 or with OpenOCD to update the hardware.
 
-Replace your firmware files with the EEG_WindowsCompat.tar.gz files to enable Windows compatibilty (Mac untested but should work).
+Recent Updates
+- Windows compatibility
+- 80Mhz downclock for power saving / heat
+
+
+Notes:
+Output is functionally only 256Hz for some reason and printing duplicates at 512Hz.
+
+Search "dec" in Src/main.c to tweak decimation rate settings which will change it, we are working on finding the best fix.
