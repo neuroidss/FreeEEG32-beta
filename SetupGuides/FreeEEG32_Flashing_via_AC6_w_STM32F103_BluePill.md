@@ -26,7 +26,7 @@ You need an STLink V2 USB, these normally come in packs with Blue Pills
 
 STM32CubeProgrammer: https://www.st.com/en/development-tools/stm32cubeprog.html
 
-Plug the SWD and 3v3 + GND pins on the end of the Blue Pill to the correct pins on the STLink. Place the Blue Pill in Programming mode by placing the jumper pin OPPOSITE of the reset button to Position 1.
+Plug the SWDIO, SWDCLK, and 3v3 + GND pins on the end of the Blue Pill to the correct pins on the STLink. Place the Blue Pill in Programming mode by placing the jumper pin OPPOSITE of the reset button to Position 1.
 
 Connect to the STLink via the Programmer software above. Open the CMSIS-DAP V1 F103 Firmware (included in this repo under /Firmware/CMSIS-DAP_hex)
 with the program, click the tab, and then click the Download option and it should update the Blue Pill. 
