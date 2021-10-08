@@ -28,7 +28,7 @@ STM32CubeProgrammer: https://www.st.com/en/development-tools/stm32cubeprog.html
 
 Plug the SWDIO, SWDCLK, and 3v3 + GND pins on the end of the Blue Pill to the correct pins on the STLink. Place the Blue Pill in Programming mode by placing the jumper pin OPPOSITE of the reset button to Position 1.
 
-Connect to the STLink via the Programmer software above. Open the CMSIS-DAP V1 F103 Firmware (included in this repo under /Firmware/CMSIS-DAP_hex)
+Connect to the STLink (plugged into a USB2.0 port, 3.0 wouldn't connect for me) via the Programmer software above. Open the CMSIS-DAP V1 F103 Firmware (included in this repo under /Firmware/CMSIS-DAP_hex)
 with the program, click the tab, and then click the Download option and it should update the Blue Pill. 
 
 You should see the blue pill go from flashing to not flashing anymore on one of the LED while the power LED should remain lit. This means it worked. 
