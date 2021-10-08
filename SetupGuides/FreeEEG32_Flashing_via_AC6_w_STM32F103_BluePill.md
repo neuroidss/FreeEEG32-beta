@@ -5,18 +5,12 @@
 [STM32F103C8T6 "Blue Pill"](https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html)
 Make sure it's genuine!
 
-FT232RL USB to UART converter OR ESP32 developer board
 
 FreeEEG32 board.
 
 2x MicroUSB cords
 
 #### Software:
-
-##### Blue Pill software (Windows only)
-[STM32 Flasher Demonstrator GUI](https://www.st.com/en/development-tools/flasher-stm32.html)
-
-CMSIS-DAP V1 F103 Firmware (included in this repo under /Firmware/CMSIS-DAP_hex)
 
 ##### FreeEEG32 software
 [System Workbench for STM32](https://www.openstm32.org/System%2BWorkbench%2Bfor%2BSTM32) (registration required, recommend you use this on Ubuntu 16.04 or 18.04 as this is how we will access OpenVibe)
@@ -25,6 +19,32 @@ FreeEEG32 Firmware (included in this repo under /Firmware/AC6). Replace the firm
 
 
 ## Setting up the Blue Pill
+
+## New Method
+
+You need an STLink V2 USB, these normally come in packs with Blue Pills
+
+STM32CubeProgrammer: https://www.st.com/en/development-tools/stm32cubeprog.html
+
+Plug the SWD and 3v3 + GND pins on the end of the Blue Pill to the correct pins on the STLink. Place the Blue Pill in Programming mode by placing the jumper pin OPPOSITE of the reset button to Position 1.
+
+Connect to the STLink via the Programmer software above. Open the CMSIS-DAP V1 F103 Firmware (included in this repo under /Firmware/CMSIS-DAP_hex)
+with the program, click the tab, and then click the Download option and it should update the Blue Pill. 
+
+You should see the blue pill go from flashing to not flashing anymore on one of the LED while the power LED should remain lit. This means it worked. 
+
+Unplug the Blue Pill and STLink, place the Blue Pill back in boot mode (jumper back to Position 0) and plug the MicroUSB cable in, and it should now be recognized as CMSIS-DAP by your computer.
+
+### Old method (doesn't work anymore last we checked)
+
+##### Blue Pill software
+
+FT232RL USB to UART converter OR ESP32 developer board with EN pin shorted to ground.
+
+[STM32 Flasher Demonstrator GUI](https://www.st.com/en/development-tools/flasher-stm32.html)
+
+CMSIS-DAP V1 F103 Firmware (included in this repo under /Firmware/CMSIS-DAP_hex)
+
 
 This part adapted from [Circuit Digest](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port)
 
