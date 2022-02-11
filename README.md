@@ -6,7 +6,14 @@
 
 ### Setup
 
+Docker container setup (Linux). Extract the following and run:
+- Compilation: `./gcc-arm-none-eabi_run.sh`
+- Flashing: `sudo ./openocd_flash.sh`
+
+
 [Flashing via AC6 with STM32 Blue Pill](https://github.com/neuroidss/FreeEEG32-beta/blob/master/SetupGuides/FreeEEG32_Flashing_via_AC6_w_STM32F103_BluePill.md)
+
+The AC6 stuff is deprecated but the blue pill is still needed.
 
 [OpenVIBE Setup](https://github.com/neuroidss/FreeEEG32-beta/blob/master/SetupGuides/FreeEEG32_OpenVibe_Docker_Readme.md)
 
