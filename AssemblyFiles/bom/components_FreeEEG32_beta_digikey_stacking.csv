@@ -30,6 +30,6 @@ U12,SN6505BDBVR,1,https://www.digikey.it/en/products/detail/texas-instruments/SN
 Y2,7B-16.000MEEQ-T,1,https://www.digikey.it/en/products/detail/txc-corporation/7B-16-000MEEQ-T/2207718,CRYSTAL 16.0000MHZ 10PF SMD,,,,,,,,,,,
 T1,750315371,1,https://www.digikey.it/en/products/detail/w%C3%BCrth-elektronik/750315371/5799562,XFRMR FWD P-P DC/DC CONV SMD,,,,,,,,,,,
 "R102,R100,R101,R99",RC0402FR-0724RL,4,https://www.digikey.it/en/products/detail/yageo/RC0402FR-0724RL/5280933,RES SMD 24 OHM 1% 1/16W 0402,,,,,,,,,,,
-R10,RC0402JR-070RL,5,https://www.digikey.it/en/products/detail/yageo/RC0402JR-070RL/726406,RES 0.0 OHM 1/16W JUMP 0402 SMD,,,,,,,,,,,
-"R114,R116,R117,R115",DNP,5,https://www.digikey.it/en/products/detail/yageo/RC0402JR-070RL/726406,RES 0.0 OHM 1/16W JUMP 0402 SMD,RC0402JR-070RL,,,,,,,,,,
+R10,RC0402JR-070RL,1,https://www.digikey.it/en/products/detail/yageo/RC0402JR-070RL/726406,RES 0.0 OHM 1/16W JUMP 0402 SMD,,,,,,,,,,,
+"R114,R116,R117,R115",DNP,4,https://www.digikey.it/en/products/detail/yageo/RC0402JR-070RL/726406,RES 0.0 OHM 1/16W JUMP 0402 SMD,RC0402JR-070RL,,,,,,,,,,
 "R109,R108",RC0402JR-074K7L,2,https://www.digikey.it/en/products/detail/yageo/RC0402JR-074K7L/726477,RES 4.7K OHM 1/16W 5% 0402 SMD,,,,,,,,,,,
